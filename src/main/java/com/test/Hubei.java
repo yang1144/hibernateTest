@@ -14,6 +14,11 @@ public class Hubei {
     public Hubei() {
     }
 
+    public Hubei(int sid, String name) {
+        this.sid = sid;
+        this.name = name;
+    }
+
     public Hubei(int sid, String name, Double price) {
         this.sid = sid;
         this.name = name;
